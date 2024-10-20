@@ -1,25 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina03</title>
     <link rel="stylesheet" href="Bootstrap/bootstrapcss.min.css">
 </head>
+
 <body>
     <ul class="nav nav-tabs">
         <li class="nav-item">
             <a class="nav-link" href="index.html">Inicio</a>
-          </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Pagina01.html">Página 1</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Pagina02.html">Página 2</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="Pagina03.html">Página 3</a>
-    </li>
-  </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Pagina01.html">Página 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Pagina02.html">Página 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Pagina03.html">Página 3</a>
+        </li>
+    </ul>
+    <br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="IMG/nl.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nuevo León</h5>
+                        <p class="card-text">Nuevo León, oficialmente Estado Libre y Soberano de Nuevo León,
+                            es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.
+                            Su capital y ciudad más poblada es Monterrey. Está dividido en cincuenta y un
+                            municipios.<br />
+                            Está ubicado en el noreste del país, limitando al norte con el río Bravo.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#NLModal">
+                            Municipios
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="IMG/mx.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ciudad de México</h5>
+                        <p class="card-text">Ciudad de México es la densamente poblada capital de México que se
+                            encuentra a gran altura. Es famosa por su Templo Mayor (un templo azteca del siglo XIII), la
+                            Catedral Metropolitana de México, de estilo barroco, de los conquistadores españoles y el
+                            Palacio Nacional, que alberga murales históricos de Diego Rivera. Todos estos hitos se
+                            ubican en torno a la Plaza de la Constitución, la enorme plaza principal conocida también
+                            como el Zócalo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="IMG/coah.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Coahuila</h5>
+                        <p class="card-text">Coahuila, oficialmente Estado Libre y Soberano de Coahuila de
+                            Zaragoza, es uno de los treinta y un estados que, junto con la Ciudad de México, conforman
+                            México.​ Su capital y ciudad más poblada es Saltillo.<br />
+                            Está ubicado en la región noreste del país, limitando al norte con el río Bravo que lo
+                            separa de Estados Unidos, al este con Nuevo León.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#CoahModal">
+                            Municipios
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="NLModal" tabindex="-1" aria-labelledby="NLModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Municipios de Nuevo León</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Los municipios de Apodaca, Pesquería, Cadereyta Jiménez, García, General Escobedo, Guadalupe,
+                    Salinas Victoria, Juárez, San Nicolás de los Garza, San Pedro Garza García, Santa Catarina y
+                    Santiago, junto con Monterrey, forman la Zona Metropolitana de Monterrey; de gran importancia
+                    económica e industrial en el país. Otras localidades importantes son Allende, Agualeguas, Linares,
+                    Montemorelos, China, Mier y Noriega, Hualahuises, Sabinas Hidalgo, Doctor Arroyo, Mina, Cerralvo,
+                    Lampazos de Naranjo, Ciudad Anáhuac y el poblado fronterizo de Colombia.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="CoahModal" tabindex="-1" aria-labelledby="CoahModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Municipios de Coahuila</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Abasolo, Acuña, Allende, Arteaga, Candela, Castaños, Cuatro Ciénegas, Escobedo, Francisco I. Madero,
+                    Frontera, General Cepeda, Guerrero, Hidalgo, Jiménez, Juárez, Lamadrid, Matamoros, Monclova,
+                    Morelos, Múzquiz, Nadadores, Nava, Ocampo, Parras, Piedras Negras, Progreso, Ramos Arizpe, Sabinas,
+                    Sacramento, Saltillo, San Buenaaventura, San Juan de Sabinas, San Pedro, Sierra Mojada, Torreón,
+                    Viesca, Villa Unión, Zaragoza.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Bootstrap/bootstrap.bundlejs.min.js"></script>
 </body>
+
 </html>
