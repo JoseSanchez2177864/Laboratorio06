@@ -1,25 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina01</title>
     <link rel="stylesheet" href="Bootstrap/bootstrapcss.min.css">
 </head>
+
 <body>
     <ul class="nav nav-tabs">
         <li class="nav-item">
             <a class="nav-link" href="index.html">Inicio</a>
-          </li>
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="Pagina01.html">Página 1</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Pagina02.html">Página 2</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Pagina03.html">Página 3</a>
-    </li>
-  </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Pagina01.html">Página 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Pagina02.html">Página 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Pagina03.html">Página 3</a>
+        </li>
+    </ul>
+    <br /><br />
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG/aus.png" class="d-block w-50">
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/roland.jpeg" class="d-block w-100" width="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/wimble.jpeg" class="d-block w-100" width="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/usopen.jpg" class="d-block w-100" width="500px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                Roland Garros fue el primer Grand Slam en unirse a la Era Abierta en 1968,
+                y desde entonces muchas figuras mundiales han engalanado las famosas canchas
+                de arcilla, como Björn Borg, Ivan Lendl, Mats Wilander, Gustavo Kuerten,
+                Roger Federer, Rafael Nadal y Novak Djokovic. Los aficionados locales nunca
+                olvidarán la edición de 1983, cuando Yannick Noah se convirtió en el primer,
+                y hasta ahora único, francés en ganar el título individual en la Era Abierta.
+                En 2022, Nadal se convirtió en el primer tenista de la historia en ganar 14 títulos
+                en un mismo major. En 2023, Djokovic se encaramó en solitario al liderato
+                histórico de títulos masculinos logrando su 23ª copa de Grand Slam. En
+                2024, a sus 21 años, Alcaraz se convirtió en el hombre más joven capaz
+                de ganar títulos de Grand Slam en tres superficies diferentes.<br /><br />
+                <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right"
+                    data-bs-custom-class="custom-popover" data-bs-title="El jugador español:"
+                    data-bs-content="Carlos Alcaraz">
+                    Último Campeón de Roland Garros
+                </button>
+            </div>
+            <div class="col-4">
+                <img src="IMG/rg.jpg" width="500px">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"><br/><br/></div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="IMG/wim.jpeg" width="500px">
+            </div>
+            <div class="col-2">
+                
+            </div>
+            <div class="col-4" style="text-align: right;">
+                Historia Y Tradición En Wimbledon Desde que se inició en 1877, 
+                Wimbledon ha crecido y pasó de ser un torneo para amigos hasta convertirse
+                 un campeonato Grand Slam con millones de seguidores por todo el mundo. 
+                 El único Grand Slam sobre hierba mantiene muchas de sus tradiciones, incluyendo 
+                 un estricto código de vestimenta para sus competidores, la degustación de las fresas
+                  con crema y la presencia de la realeza. En 2013, Andy Murray se convirtió 
+                  en el primer hombre británico en ganar el título en modalidad individual desde
+                   Fred Perry en 1936.<br /><br />
+                <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="left"
+                    data-bs-custom-class="custom-popover" data-bs-title="El jugador español:"
+                    data-bs-content="Carlos Alcaraz">
+                    Último Campeón de Wimbledon
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"><br/><br/></div>
+        </div>
+            <div class="row">
+                <div class="col-6">
+                    El US Open se parece muy poco al evento inaugurado en 1881. 
+                    Ha evolucionado desde un exclusivo torneo masculino individual y
+                     por parejas en Newport (Rhode Island) hasta convertirse en un 
+                     espectáculo deportivo y de entretenimiento de dos semanas en Flushing
+                      (Nueva York). Los cinco veces campeones Jimmy Connors, Pete Sampras 
+                      y Roger Federer comparten el récord de conquistas individuales de 
+                      la Era Abierta en el evento neoyorquino.<br /><br />
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="bottom"
+                        data-bs-custom-class="custom-popover" data-bs-title="El jugador italiano:"
+                        data-bs-content="Jannik Sinner">
+                        Último Campeón de Us Open
+                    </button>
+                </div>
+                <div class="col-4">
+                    <img src="IMG/us.jpg" width="500px">
+                </div>
+            </div>
+    </div>
+    <script src="Bootstrap/bootstrap.bundlejs.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl);
+            });
+        });
+    </script>
 </body>
+
 </html>
