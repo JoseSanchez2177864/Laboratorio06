@@ -23,6 +23,119 @@
             <a class="nav-link" href="Pagina03.html">Página 3</a>
         </li>
     </ul>
+    <br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-6">
+                La Universidad Autónoma de Nuevo
+                León (UANL) es una institución pública
+                de educación media-superior y educación superior
+                , con sede principal en la Ciudad Universitaria,
+                ubicada en el municipio de San Nicolás de los
+                Garza, dentro del Área Metropolitana de Monterrey,
+                Nuevo León, México.<br />
+                Las raíces de la Universidad Autónoma de Nuevo León
+                se remontan a las aulas del Real y Tridentino Colegio
+                Seminario de Monterrey del siglo XVIII, los centros de
+                altos estudios del siglo XIX, la Escuela de Medicina
+                fundada por el ilustre doctor José Eleuterio González
+                “Gonzalitos”, la Escuela de Jurisprudencia y el Colegio
+                Civil oficialmente en 1933.​<br />
+                El lema de la academia desde su fundación es: "Alere Flammam
+                Veritatis" (Alentando la flama de la verdad). Cuenta con diversas
+                facultades en varios municipios del estado de Nuevo León, como:
+            </div>
+            <div class="col-3">
+            </div>
+        </div>
+    </div>
+    <br /><br />
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Facultad de Ingeniería Mecánica y Eléctrica:
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p class="muted">La <a href="https://www.fime.uanl.mx/" data-bs-toggle="tooltip" data-bs-title="FIME">Facultad de
+                            Ingeniería Mecánica y Eléctrica</a>,
+                        es una Institución educativa de nivel superior y pertenece
+                        a la Universidad Autónoma de Nuevo León.<br />
+                        Nuestras 11 carreras a nivel Licenciatura, 25 programas de Posgrado y más de 120 cursos de
+                        Educación
+                        Continua que satisfacen los requerimientos y necesidades del estudiante y de la industria. La
+                        FIME
+                        cuenta con una planta aproximada de más de 660 maestros, de los cuales, algunos cuentan con
+                        perfil
+                        PRODEP, otros pertenecen al SNI (Sistema Nacional de Investigadores), varios de ellos con
+                        reconocimientos, premios y certificaciones en diferentes áreas.</p><br />
+                    <img src="IMG/fime.png" style="width: 250px;"></img>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Facultad de Contaduría Pública y Administración
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    El 13 de octubre, un grupo de destacados profesionales
+                    de la Contaduría Pública fundaron la ahora <a href="https://facpya.uanl.mx/" data-bs-toggle="tooltip" data-bs-title="FACPYA">Facultad de
+                    Contaduría Pública y Administración</a>, teniendo comoprimer
+                    director al C. P. Ramón Cárdenas Coronado (†).<br />
+                    La ceremonia de inauguración se celebró en el Aula Magna del Colegio Civil,
+                    siendo Presidente de la República el C. Adolfo Ruíz Cortínes, Gobernador del
+                    Estado, Dr. Ignacio Morones Prieto, y Rector de la Universidad, el Lic. Raúl Rangel Frias.<br />
+                    <img src="IMG/facpya.jpg" style="width: 250px;"></img>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Facultad de Medicina
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    La <a href="https://www.medicina.uanl.mx/" data-bs-toggle="tooltip" data-bs-title="Medicina">Facultad de Medicina</a> de la UANL es la
+                    escuela de medicina de la Universidad Autónoma de Nuevo
+                    León, institución pública ubicada en el Campus Ciencias de
+                    la Salud de la UANL en Monterrey, Nuevo León, México. Sus
+                    antecedentes datan de 1828 con la primera Cátedra Médica
+                    Quirúrgica en el estado con el doctor italiano Pascual
+                    Costanza. En el año 1859 se funda oficialmente como escuela
+                    de medicina por el doctor José Eleuterio González​.<br />
+
+                    El departamento clínico de la Facultad de Medicina es el Hospital Universitario
+                    doctor “José Eleuterio González”, un nosocomio de tercer nivel de atención con 868
+                    camas. La facultad y el hospital como unidad, y en sus diferentes edificios, están
+                    constituidos por 62 departamentos y servicios médicos y es una de las instituciones
+                    académicas de salud más grandes de México<br />
+                    <img src="IMG/med.jpg" style="width: 250px;"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Bootstrap/bootstrap.bundlejs.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+    </script>
+
 </body>
 
 </html>
